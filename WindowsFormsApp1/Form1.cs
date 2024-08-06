@@ -40,12 +40,12 @@ namespace WindowsFormsApp1
 
         private void btn_novo_Click(object sender, EventArgs e)
         {
-            txt_renda.Text = "";
-            txt_energia.Text = "";
-            txt_agua.Text = "";
-            txt_tv.Text = "";
-            txt_alimentacao.Text = "";
-            txt_outros.Text = "";
+            txt_renda.Clear();
+            txt_energia.Clear();
+            txt_agua.Clear()    ;
+            txt_tv.Clear();
+            txt_alimentacao.Clear();
+            txt_outros.Clear();
 
             lbl_resultado.Text = "";
             lbl_saldo.Text = "";
